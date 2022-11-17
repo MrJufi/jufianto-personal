@@ -1,0 +1,143 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+
+/*------- Home Content -------*/
+
+.home-column h1{
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.home-column h1 span {
+    color: #086FC5;
+}
+
+.home-column h2{
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.home-column .btn1{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid black; 
+    transition: 0.5s;
+}
+
+.home-column a{
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.btn1:hover{
+    color: white;
+    border-color: #086FC5;
+    background-color: #086FC5;
+    cursor: pointer;
+}
+
+.home-column a:hover{
+    color: white;
+}
+
+
+/*------ SKills content ------*/
+
+.content{
+    border-radius: 30px;
+    padding: 25px;
+    margin: 30px 0;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.content:hover{
+    box-shadow: 0 0 25px 0px white;
+}
+
+.icon-skill{
+    width: 15%;
+    margin: 0 20px;
+}
+
+
+/*------ Footer ------*/
+
+footer h2{
+    font-weight: 400;
+}
+
+footer h3{
+    font-size: 25px;
+    color: #086FC5;
+    padding: 5px 0;
+    margin-bottom: 30px;
+}
+
+footer p{
+    font-size: 13px;
+    opacity: 50%;
+    text-align: left;
+}
+
+
+/*Color*/
+.red{
+    color: #FA0069;
+}
+
+.green{
+    color: #04CA00;
+}
+
+.blue{
+    color: #002FD8;
+}
+.blue-old{
+    color: #00D8FF;
+}
+
+.brown{
+    color: #D8A800;
+}
+
+.purple{
+    color: #7E13F8;
+}
+
+
+/*Newest CSS*/
+.skills-background{
+    background-color: black;
+}
+
+.card{
+    background-color: #002FD8;
+}
+
+.portfolio{
+    overflow: hidden;
+}
+
+.porto{
+    transition: 0.8s;
+}
+
+.porto:hover{
+    box-shadow: 0 0 20px 0px rgb(168, 156, 156);
+}
